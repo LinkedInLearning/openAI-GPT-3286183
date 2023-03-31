@@ -1,36 +1,31 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![course-name-alt-text][lil-thumbnail-url] 
+# L'essentiel d'OpenAI et des modèles de langage GPT
 
-_See the readme file in the main branch for updated instructions and information._
+Ce dossier Repository est lié au cours `L'essentiel d'OpenAI et des modèles de langage GPT`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+
+![Nom final de la formation][lil-thumbnail-url]
+
+Bienvenue dans le future du développement web avec cette introduction au langage GPT, qui fournit des modèles de langage puissants, capables d'exécuter diverses tâches de traitement et de manipulation de texte pour générer, synthétiser, corriger et même traduire du texte.
+Dans ce cours, on apprend à utiliser les modèles de langage GPT :  Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (NLP).
+
+Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail.  
+
+
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+Ce dossier Repository a des répertoires pour chaque chapitre du cours. Dans chaque répertoire, vous trouverez le fichier `_question.sql` pour le squellete de requête de la question, et le fichier `_reponse.sql` pour la réponse (ne regardez pas à l'avance !). 
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+## CodeSpaces
 
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
+Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpaces. Lorsque CodeSpaces démarre, il installe l'extension Sqlite nécessaire. Pour exécuter le code, il faudra accéder à la palette de commandes, soit avec la combinaisons de touches CMD ou CTRL + MAJ + P (qui fonctionne sur Chrome et Edge), ou la touche F1 (qui fonctionne partout, et notamment dans Firefox).
 
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+### Formateur
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+**Sandy Ludosky** 
 
+ Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[1]: # (End of FR-Instruction ###############################################################################################)
 
