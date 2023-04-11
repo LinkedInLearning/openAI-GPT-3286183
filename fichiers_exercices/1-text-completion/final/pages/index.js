@@ -42,6 +42,7 @@ export default function Home() {
     loading(true);
     try {
       // generate
+      generate()
     } catch (error) {
       console.error(error);
     }
