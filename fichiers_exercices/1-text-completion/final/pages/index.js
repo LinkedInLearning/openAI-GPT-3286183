@@ -34,7 +34,7 @@ export default function Home() {
         data.error || new Error(`Request failed with status ${response.status}`)
       );
     }
-    return { result: {} };
+    return { result: data.result };
   }
 
   async function handleOnSubmit(event) {
@@ -43,6 +43,10 @@ export default function Home() {
     try {
       // generate
       generate()
+      .then(data => {
+        console.log(data)
+        loading(false)
+      })
     } catch (error) {
       console.error(error);
     }
