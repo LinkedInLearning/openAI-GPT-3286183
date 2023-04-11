@@ -44,7 +44,7 @@ export default function Home() {
       // generate
       generate()
       .then(data => {
-        console.log(data)
+        setResult(data.result)
         loading(false)
       })
     } catch (error) {

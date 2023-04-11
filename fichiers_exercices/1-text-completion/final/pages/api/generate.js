@@ -36,7 +36,6 @@ export default async function (req, res) {
       temperature: 0,
       max_tokens: 200,
     });
-    console.log(response.data.choices[0].text)
     res.status(200).json({ result: response.data.choices[0].text });
   } catch (e) {
     res.status(500).json({ error: e.message });
