@@ -28,6 +28,10 @@ export default async function (req, res) {
 
   try {
     // definir prompt
+    const completion = await openai.createChatCompletion({ 
+      model: "gpt-3.5-turbo",
+      messages: input
+    })
   } catch (error) {
     // Consider adjusting the error handling logic for your use case
     if (error.response) {

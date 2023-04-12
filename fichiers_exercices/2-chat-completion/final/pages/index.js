@@ -40,8 +40,10 @@ export default function Home() {
   async function handleOnSubmit(event) {
     event.preventDefault();
     ref.current.value = null;
+    setChats([...chats, { role: "user", content: input }]);
     try {
       // generate
+      
     } catch (error) {
       console.error(error);
     }
@@ -53,7 +55,7 @@ export default function Home() {
       return {
         [key]: chat["content"]
       }
-    })
+    }).filter((chat, i) => i !== 0 && chat)
   }, [chats])
 
   return (
@@ -97,7 +99,7 @@ export default function Home() {
               style={{ height: "fit-content", marginRight: "0.5rem" }}
               height="fit-content"
               type="text"
-              onChange={(e) => {}}
+              onChange={(e) => setInput(e.target.value)}
             />
             <button type="submit" className="btn btn-primary mb-3">
               Send
