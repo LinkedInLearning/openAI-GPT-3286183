@@ -102,9 +102,11 @@ export default function Home() {
     setInput("");
     try {
       //generate
-      generateRecipe(input).then(({ recipe, input })=> {
-        setResult({ recipe })
-        loading(false)
+      generateRecipe(input)
+        .then(generateImage)
+        .then(({recipe, image}) => {
+          setResult({recipe, image})
+          loading(false)
       })
     } catch (error) {
       // Consider implementing your own error handling logic here
