@@ -46,7 +46,7 @@ export default function Home() {
       .then(data => {
         setResult(data.result)
         loading(false)
-        ref.current.value = ""
+        ref.current.value = null;
       })
     } catch (error) {
       console.error(error);
