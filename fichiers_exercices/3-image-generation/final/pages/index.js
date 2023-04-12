@@ -101,12 +101,7 @@ export default function Home() {
     ref.current.value = null;
     setInput("");
     try {
-      generateRecipe(input)
-        .then(generateImage)
-        .then(({ recipe, image }) => {
-          loading(false);
-          setResult({ recipe: recipe.replace("extract", ""), image });
-        });
+      //generate
     } catch (error) {
       // Consider implementing your own error handling logic here
       console.error(error);
