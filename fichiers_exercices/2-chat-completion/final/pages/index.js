@@ -30,7 +30,12 @@ function generate(input) {
 export default function Home() {
   const ref = useRef();
   const [input, setInput] = useState("");
-  const [chats, setChats] = useState([]);
+  const [chats, setChats] = useState([
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Who won the world series in 2020?"},
+        {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
+        {"role": "user", "content": "Where was it played?"}
+    ]);
 
   async function handleOnSubmit(event) {
     event.preventDefault();
@@ -41,6 +46,15 @@ export default function Home() {
       console.error(error);
     }
   }
+
+  const messages = useMemo(() => {
+    return chats.map(chat => {
+      const key = chat["role"] === "assistant" ? "Bot" : "You";
+      return {
+        [key]: chat["content"]
+      }
+    })
+  }, [chats])
 
   return (
     <div>
@@ -65,7 +79,14 @@ export default function Home() {
           }}
         >
           <ul className="messages p-4" style={{ listStyleType: "none" }}>
-            {/* messages ici */}
+            {messages.map((message, index) => {
+              return Object.entries(message).map(([key, value]) => { 
+                if (key === "You") {
+                  return <li className="mb-1" key={index}>{`${key}: ${value}`}</li>
+                }
+                return <li className="mb-1" style={{ fontStyle: "italic"}} key={index}>{`${key}: ${value}`}</li>
+              })
+            })}
           </ul>
         </div>
         <form onSubmit={handleOnSubmit}>
