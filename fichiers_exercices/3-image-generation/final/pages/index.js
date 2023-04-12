@@ -44,6 +44,7 @@ async function generateImage({ recipe }) {
           new Error(`Request failed with status ${response.status}`)
         );
       }
+      debugger
       resolve({ recipe, image: data.image_url });
     } catch (e) {
       console.error(e);
@@ -102,9 +103,12 @@ export default function Home() {
     setInput("");
     try {
       //generate
-      generateRecipe(input).then(({ recipe, input })=> {
-        setResult({ recipe })
-        loading(false)
+      generateRecipe(input)
+        .then(generateImage)
+        .then(({recipe, image}) => {
+          debugger
+          setResult({recipe, image})
+          loading(false)
       })
     } catch (error) {
       // Consider implementing your own error handling logic here
