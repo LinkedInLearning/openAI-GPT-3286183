@@ -28,8 +28,8 @@ export default async function (req, res) {
 
   try {
     const response = await openai.createCompletion({
-      model: "",
-      prompt: "",
+      model: "text-davinci-003",
+      prompt: "write a recipe based on the instructions and ingredients:" + input,
       temperature: 0.3,
       max_tokens: 120,
       top_p: 1,
