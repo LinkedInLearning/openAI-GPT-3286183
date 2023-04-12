@@ -102,7 +102,10 @@ export default function Home() {
     setInput("");
     try {
       //generate
-      generateRecipe(input).then(console.log)
+      generateRecipe(input).then(({ recipe, input })=> {
+        setResult({ recipe })
+        loading(false)
+      })
     } catch (error) {
       // Consider implementing your own error handling logic here
       console.error(error);
