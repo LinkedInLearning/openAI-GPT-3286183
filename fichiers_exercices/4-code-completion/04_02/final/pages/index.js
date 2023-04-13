@@ -18,7 +18,7 @@ export default function Home() {
   const ref = useRef(null);
   const [isPending, loading] = useState(false);
   const [result, setResult] = useState("");
-  const [input, setInput] = useState(" cc");
+  const [input, setInput] = useState("cc");
 
   async function generate() {
     const response = await fetch("/api/generate", {
@@ -72,7 +72,7 @@ export default function Home() {
             ref={ref}
             type="text"
             name="title"
-            placeholder="search ..."
+            placeholder="instructions"
             onChange={(e) => setInput(e.target.value)}
           />
           <button type="submit">Code</button>

@@ -32,7 +32,7 @@ export default async function (req, res) {
   try {
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: "créer un array avec 3 éléments: 1, 2, 3 en langage javascript",
+      prompt: req.body.input,
       temperature: 0,
       max_tokens: 200,
     });
