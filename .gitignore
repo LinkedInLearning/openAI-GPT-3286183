@@ -4,3 +4,4 @@ node_modules
 npm-debug.log
 .env
 __pycache__
+env
