@@ -29,7 +29,7 @@ export default async function (req, res) {
   try {
    
     const response = await openai.createImage({
-      prompt: "a white siamese cat",
+      prompt: input,
       n: 1,
       size: "1024x1024",
     });
