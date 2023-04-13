@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState, useEffect, useRef, useMemo } from "react";
+import { useState } from "react";
 import styles from "./index.module.css";
 
 const Counter = () => {
