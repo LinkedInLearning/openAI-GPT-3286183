@@ -16,4 +16,18 @@ $ source ~env\bin\activate
 
 ## Lancer le projet
 
+### Windows
+
 `python index.py`
+
+### Mac
+
+`python3 index.py`
+
+## remplacer avec sa clé API
+
+<https://platform.openai.com/account/api-keys>
+
+fichier : `env.example`
+
+ajouter et remplacer avec votre secret :`OPENAI_API_KEY="<YOUR-API-KEY>"`
