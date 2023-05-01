@@ -38,7 +38,7 @@ La branche `main` correspond au code à la fin de la formation.
 
 **Sandy Ludosky**
 
-Retrouvez mes autres formations sur [LinkedIn Learning][lil-url-trainer].
+Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/sandy-ludosky).
 
 [0]: # "Replace these placeholder URLs with actual course URLs"
 [1]: # "End of FR-Instruction ###############################################################################################"
