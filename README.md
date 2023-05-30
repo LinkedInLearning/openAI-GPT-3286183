@@ -4,10 +4,9 @@ Ce dossier Repository est lié au cours `L'essentiel d'OpenAI et des modèles de
 
 ![L'essentiel d'OpenAI et des modèles de langage GPT][lil-thumbnail-url]
 
-Bienvenue dans le future du développement web avec cette introduction au langage GPT, qui fournit des modèles de langage puissants, capables d'exécuter diverses tâches de traitement et de manipulation de texte pour générer, synthétiser, corriger et même traduire du texte.
-Dans ce cours, on apprend à utiliser les modèles de langage GPT : Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (NLP).
+Bienvenue dans le futur du développement web avec cette introduction au langage GPT, qui fournit des modèles de langage puissants, capables d'exécuter diverses tâches de traitement et de manipulation de texte pour générer, synthétiser, corriger et même traduire du texte.
 
-Dans ce cours, on apprend à utiliser les modèles de langage GPT : Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (_NLP_).
+Dans ce cours, nous apprendrons à utiliser les modèles de langage GPT : Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (_NLP_).
 
 ## Fichiers d'exercices
 
