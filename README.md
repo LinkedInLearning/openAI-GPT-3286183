@@ -4,10 +4,9 @@ Ce dossier Repository est lié au cours `L'essentiel d'OpenAI et des modèles de
 
 ![L'essentiel d'OpenAI et des modèles de langage GPT][lil-thumbnail-url]
 
-Bienvenue dans le future du développement web avec cette introduction au langage GPT, qui fournit des modèles de langage puissants, capables d'exécuter diverses tâches de traitement et de manipulation de texte pour générer, synthétiser, corriger et même traduire du texte.
-Dans ce cours, on apprend à utiliser les modèles de langage GPT : Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (NLP).
+Bienvenue dans le futur du développement web avec cette introduction au langage GPT, qui fournit des modèles de langage puissants, capables d'exécuter diverses tâches de traitement et de manipulation de texte pour générer, synthétiser, corriger et même traduire du texte.
 
-Dans ce cours, on apprend à utiliser les modèles de langage GPT : Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (_NLP_).
+Dans ce cours, nous apprendrons à utiliser les modèles de langage GPT : Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (_NLP_).
 
 ## Fichiers d'exercices
 
@@ -26,11 +25,11 @@ La branche `main` correspond au code à la fin de la formation.
 
 ### Installation
 
-#### installer les dépendances
+#### Installer les dépendances
 
 `npm install`
 
-#### lancer le projet
+#### Lancer le projet
 
 `npm run dev`
 
@@ -38,7 +37,10 @@ La branche `main` correspond au code à la fin de la formation.
 
 **Sandy Ludosky**
 
-Retrouvez mes autres formations sur [LinkedIn Learning][lil-url-trainer].
+Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/sandy-ludosky).
 
-[0]: # "Replace these placeholder URLs with actual course URLs"
+[0]: # (Replace these placeholder URLs with actual course URLs)
+[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-d-openai-et-des-modeles-de-langage-gpt
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQE2ATCfAQa_ng/learning-public-crop_675_1200/0/1685088353869?e=2147483647&v=beta&t=XsFBytWpLDvh5XqzP91VJVw9NM5zDP85c_fvj4nVyIg
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/sandy-ludosky
 [1]: # "End of FR-Instruction ###############################################################################################"
