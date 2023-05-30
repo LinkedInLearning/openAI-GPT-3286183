@@ -26,11 +26,11 @@ La branche `main` correspond au code à la fin de la formation.
 
 ### Installation
 
-#### installer les dépendances
+#### Installer les dépendances
 
 `npm install`
 
-#### lancer le projet
+#### Lancer le projet
 
 `npm run dev`
 
